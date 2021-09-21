@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Yaldevi', sans-serif;
+}
+
+/* NavBar */
+
+.nav-wrapper {
+    padding: 0 17%;
+    background-color: #99a9d1;
+}
+
+.nav-wrapper .brand-logo {
+    font-size: 25px;
+}
+
+.nav-wrapper li a {
+    font-size: 18px;
+}
+
+/* Content */
+
+.container {
+    width: 60%;
+    font-size: 15px;
+}
+
+.container h1 {
+    font-size: 3.8rem;
+}
+
+/* Home Page */
+
+.home-page p {
+    font-size: 20px;
+}
+
+.home-page .row {
+    margin-top: 12%;
+}
