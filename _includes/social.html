@@ -1,0 +1,10 @@
+<ul class="social-media-list">
+    {%- if site.email -%}<a class="u-email" href="mailto:{{ site.email }}"><img src="/assets/icons/email-icon.png" alt="My Email" style="width:35px;height:35px;"></a>{%- endif -%} &emsp;&nbsp;
+    {%- if site.github_username -%}<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><img src="/assets/icons/github-icon.png" alt="My GitHub" style="width:35px;height:35px;"></a>{%- endif -%} &emsp;&nbsp;
+    {%- if site.linkedin_username -%}<a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><img src="/assets/icons/linkedin-icon.png" alt="My LinkedIn" style="width:35px;height:35px;"></a>{%- endif -%}
+    
+    {%- if site.facebook_username -%}<li><a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg> <span class="username">{{ site.facebook_username| escape }}</span></a></li>{%- endif -%}
+    {%- if site.instagram_username -%}<li><a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> <span class="username">{{ site.instagram_username| escape }}</span></a></li>{%- endif -%}
+    {%- if site.twitter_username -%}<li><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ site.twitter_username| escape }}</span></a></li>{%- endif -%}
+</ul>
+  

@@ -1,7 +1,18 @@
-
 body {
     font-family: 'Yaldevi', sans-serif;
 }
+
+/* Footer */
+
+.page-footer {
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px dashed lightgrey;
+}
+
 
 /* NavBar */
 
@@ -22,18 +33,17 @@ body {
 
 .container {
     width: 60%;
-    font-size: 15px;
 }
 
 .container h1 {
     font-size: 3.8rem;
 }
 
-/* Home Page */
-
-.home-page p {
-    font-size: 20px;
+.container p {
+    font-size: 17px;
 }
+
+/* Home Page */
 
 .home-page .row {
     margin-top: 12%;
