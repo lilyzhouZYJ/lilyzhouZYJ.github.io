@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<h1>Experience</h1>
+<p>Here are some of my past experiences, including internships and independent projects.</p>
+
+{% for tag in site.tags %}
+    {%- if tag[0] == "projects" -%}
+        <h4>{{ tag[0] | capitalize }}</h4>
+        {% for post in tag[1] %}
+            <div class="col s12 m7">
+                <div class="card horizontal">
+                    <div class="card-image" style="width:30%">
+                        <img src="/assets/img/mitovisualize-logo.jpg" style="position:relative; top:33%;">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h5 style="display:inline-block;">{{ post.title }}</h5>&emsp;
+                            <p class="blue-grey-text lighten-2" style="display:inline-block">{{ post.duration }}</p>
+                            <p>{{ post.description }}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="{{ post.url }}">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <ul>
+        {% for post in tag[1] %}
+            <li><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</a></li>
+        {% endfor %}
+        </ul>
+    {%- endif -%}
+{% endfor %}

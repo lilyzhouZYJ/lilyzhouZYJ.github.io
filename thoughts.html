@@ -1,23 +1,16 @@
 ---
 layout: default
 ---
+<h1>Thoughts</h1>
+<p>Here are some random thoughts...</p>
 
-{% include navbar.html %}
-
-<div class="container">
-  <h2> {{page.title}} </h2>
-
-  {{content}}
-
-  {% for tag in site.tags %}
+{% for tag in site.tags %}
     {%- if tag[0] == "books" -%}
-      <h3>{{ tag[0] | capitalize }}</h3>
+      <h4>{{ tag[0] | capitalize }}</h4>
       <ul>
         {% for post in tag[1] %}
           <li><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</a></li>
         {% endfor %}
       </ul>
     {%- endif -%}
-  {% endfor %}
-
-</div>
+{% endfor %}
