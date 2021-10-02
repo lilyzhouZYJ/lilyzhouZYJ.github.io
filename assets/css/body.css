@@ -1,12 +1,26 @@
 body {
-    font-family: 'Yaldevi', sans-serif;
+    font-family: 'Noto Sans Display', sans-serif;   /* google font */
+}
+
+strong {
+    font-weight: 600;
 }
 
 /* Footer */
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 .page-footer {
     background: white;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -33,6 +47,7 @@ body {
 
 .container {
     width: 60%;
+    font-size: 17px;
 }
 
 .container h1 {
@@ -41,6 +56,15 @@ body {
 
 .container p {
     font-size: 17px;
+}
+
+.container li {
+    list-style-type: square !important;
+}
+
+.container figcaption {
+    text-align: center;
+    padding: 10px;
 }
 
 /* Home Page */

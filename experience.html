@@ -11,12 +11,12 @@ layout: default
             <div class="col s12 m7">
                 <div class="card horizontal">
                     <div class="card-image" style="width:30%">
-                        <img src="/assets/img/mitovisualize-logo.jpg" style="position:relative; top:33%;">
+                        <img src="{{ post.image }}" style="position:relative; top:33%;">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
-                            <h5 style="display:inline-block;">{{ post.title }}</h5>&emsp;
-                            <p class="blue-grey-text lighten-2" style="display:inline-block">{{ post.duration }}</p>
+                            <h5>{{ post.title }}</h5>
+                            <p class="blue-grey-text lighten-3">{{ post.time }}</p>
                             <p>{{ post.description }}</p>
                         </div>
                         <div class="card-action">
@@ -26,11 +26,5 @@ layout: default
                 </div>
             </div>
         {% endfor %}
-
-        <ul>
-        {% for post in tag[1] %}
-            <li><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</a></li>
-        {% endfor %}
-        </ul>
     {%- endif -%}
 {% endfor %}
