@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Wuthering Heights: Love and Revenge"
+image: "/assets/img/books/wuthering-heights.jpg"
 categories: books
 tag: books
 ---
 
-![Wuthering Heights](/assets/images/wuthering-heights.jpg)
+<img src="{{ page.image }}" alt="Wuther Heights" style="width:70%; display: block; margin:auto;">
 
 ### About the book
 

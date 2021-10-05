@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "红楼梦：一朝春尽红颜老，花落人亡两不知"
+image: "/assets/img/books/red-chamber.jpg"
 categories: books
 tag: books
 ---
 
-![红楼梦](/assets/images/red-chamber.jpg)
+<img src="{{ page.image }}" alt="Red Chamber" style="width:70%; display: block; margin:auto;">
 
 ### About the book
 

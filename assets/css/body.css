@@ -16,6 +16,7 @@ body {
 
 main {
     flex: 1 0 auto;
+    margin-bottom: 5rem;
 }
 
 .page-footer {
@@ -47,15 +48,33 @@ main {
 
 .container {
     width: 60%;
-    font-size: 17px;
+    font-size: 19px;
+}
+
+.container a:hover{
+    color: rgb(43, 43, 172);
+    transition: 1s;
 }
 
 .container h1 {
     font-size: 3.8rem;
 }
 
+.container h2 {
+    font-size: 3rem;
+}
+
+.container h3 {
+    font-size: 2.2rem;
+}
+
 .container p {
-    font-size: 17px;
+    font-size: 19px;
+}
+
+.container ul {
+    width: 90%;
+    margin: auto;
 }
 
 .container li {

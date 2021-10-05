@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Fahrenheight 451: the Meaning of Knowledge"
+image: "/assets/img/books/fahrenheight-451.jpg"
 categories: books
 tag: books
 ---
 
-![Fahrenheight 451](/assets/images/fahrenheight-451.jpg)
+<img src="{{ page.image }}" alt="{{ page.title }}" style="width:70%; display: block; margin:auto;">
 
 ### About the book
 

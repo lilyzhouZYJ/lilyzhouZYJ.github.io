@@ -6,6 +6,31 @@ layout: default
 
 {% for tag in site.tags %}
     {%- if tag[0] == "books" -%}
+        <h4>{{ tag[0] | capitalize }}</h4>
+        {% for post in tag[1] %}
+            <div class="col s12 m7">
+                <div class="card horizontal">
+                    <div class="card-image" style="width:30%; max-height: 200px;">
+                        <img src="{{ post.image }}" style="height:100%; width: auto; margin:auto;">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h5>{{ post.title }}</h5>
+                            <p class="blue-grey-text lighten-3">{{ post.time }}</p>
+                            <p>{{ post.description }}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="{{ post.url }}">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {%- endif -%}
+{% endfor %}
+
+<!-- {% for tag in site.tags %}
+    {%- if tag[0] == "books" -%}
       <h4>{{ tag[0] | capitalize }}</h4>
       <ul>
         {% for post in tag[1] %}
@@ -13,4 +38,4 @@ layout: default
         {% endfor %}
       </ul>
     {%- endif -%}
-{% endfor %}
+{% endfor %} -->

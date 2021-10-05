@@ -12,6 +12,10 @@ Designed and built by the Lek Lab at Yale, <a href="https://mitovisualize.org/">
 
 I worked on the development of this tool from March 2020 to June 2021, as an extension of my work during the previous summer.
 
+<a href="https://github.com/lilyzhouZYJ/mitovisualize"><img src="/assets/icons/github-icon.png" alt="GitHub" style="width:25px; height:25px; vertical-align:top">&ensp;See the Source Code Here</a>
+
+<a href="https://mitovisualize.org/"><img src="/assets/icons/external-link.png" alt="External Link" style="width:25px; height:25px; vertical-align:top">&ensp;See the website here</a>
+
 ### Functionalities
 
 * Visualization of mRNA- and tRNA-encoding genes.
