@@ -1,9 +1,13 @@
 ---
 layout: post
 title:  "The Orphan's Tale"
+image: "/assets/img/books/orphans-tale.jpg"
+time: "July 14-15, 2020"
 categories: books
 tag: books
 ---
+
+<img src="{{ page.image }}" alt="{{ page.title }}" style="width:70%; display: block; margin:auto;">
 
 ### About the book
 

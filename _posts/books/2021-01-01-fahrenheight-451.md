@@ -2,6 +2,7 @@
 layout: post
 title:  "Fahrenheight 451: the Meaning of Knowledge"
 image: "/assets/img/books/fahrenheight-451.jpg"
+time: "December 20 - January 1, 2021"
 categories: books
 tag: books
 ---

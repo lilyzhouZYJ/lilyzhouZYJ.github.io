@@ -48,7 +48,7 @@ main {
 
 .container {
     width: 60%;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .container a:hover{
@@ -66,10 +66,6 @@ main {
 
 .container h3 {
     font-size: 2.2rem;
-}
-
-.container p {
-    font-size: 19px;
 }
 
 .container ul {
@@ -90,4 +86,10 @@ main {
 
 .home-page .row {
     margin-top: 12%;
+}
+
+/* About Page */
+
+table {
+    table-layout: fixed;
 }

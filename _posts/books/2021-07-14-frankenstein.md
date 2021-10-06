@@ -1,9 +1,13 @@
 ---
 layout: post
 title:  "Frankenstein: Destruction in Creation"
+image: "/assets/img/books/frankenstein.jpg"
+time: "June - July 2021"
 categories: books
 tag: books
 ---
+
+<img src="{{ page.image }}" alt="{{ page.title }}" style="width:70%; display: block; margin:auto;">
 
 ### About the book
 
@@ -11,7 +15,7 @@ tag: books
 * **Year of publication:** 1818
 
 ### Themes
-* **(Destructive) Power of knowledge**
+* **The (destructive) power of knowledge**
 * **Ambition and desire**
 * **Self-destruction in creation**
 

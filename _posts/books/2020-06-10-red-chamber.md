@@ -2,6 +2,7 @@
 layout: post
 title:  "红楼梦：一朝春尽红颜老，花落人亡两不知"
 image: "/assets/img/books/red-chamber.jpg"
+time: "May - June 2020"
 categories: books
 tag: books
 ---

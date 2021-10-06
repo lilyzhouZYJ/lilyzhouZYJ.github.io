@@ -1,9 +1,13 @@
 ---
 layout: post
 title:  "Slaughterhouse Five: the Absurdity of War"
+image: "/assets/img/books/slaughterhouse-five.jpg"
+time: "January 3 – 15, 2021"
 categories: books
 tag: books
 ---
+
+<img src="{{ page.image }}" alt="{{ page.title }}" style="width:70%; display: block; margin:auto;">
 
 ### About the book
 
