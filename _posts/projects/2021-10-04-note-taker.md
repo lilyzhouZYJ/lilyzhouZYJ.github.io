@@ -21,3 +21,34 @@ Since my work with MitoVisualize largely focused on the frontend, I wanted to ge
 ### Technical Tools
 
 On the back end, I'm using Express to build my server. I'm also using the EJS template engine to render templates that would be sent to the front end. For the database, I'm using MongoDB, and I'm using the mongoose package to help interact with MongoDB. The schema and model for mongoose are built in `./models/note.js`.
+
+### Display
+
+<figure>
+    <img src="/assets/img/note-taker/home.png" alt="Homepage" style="width:100%; display:block; margin-left:auto; margin-right:auto;"/>
+    <figcaption>Figure 1. Home Page</figcaption>
+</figure>
+<br/>
+
+<figure>
+    <img src="/assets/img/note-taker/dashboard.png" alt="Display tRNA Variant" style="width:100%; display:block; margin-left:auto; margin-right:auto;"/>
+    <figcaption>Figure 2. Dashboard</figcaption>
+</figure>
+<br/>
+
+<figure>
+    <img src="/assets/img/note-taker/public-notes.png" alt="Display rRNA Variant" style="width:100%; display:block; margin-left:auto; margin-right:auto;"/>
+    <figcaption>Figure 3. Public Notes</figcaption>
+</figure>
+<br/>
+
+<figure>
+    <img src="/assets/img/note-taker/single-note.png" alt="Display region of deletion" style="width:100%; display:block; margin-left:auto; margin-right:auto;"/>
+    <figcaption>Figure 4. Display Note</figcaption>
+</figure>
+<br/>
+
+<figure>
+    <img src="/assets/img/note-taker/create-new-note.png" alt="Display gene information" style="width:100%; display:block; margin-left:auto; margin-right:auto;"/>
+    <figcaption>Figure 5. Create New Note</figcaption>
+</figure>
