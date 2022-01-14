@@ -10,4 +10,4 @@ tag: projects
 
 <a href="https://github.com/lilyzhouZYJ/sorting-visualizer"><img src="/assets/icons/github-icon.png" alt="GitHub" style="width:25px; height:25px; vertical-align:top">&ensp;See the Source Code Here</a>
 
-<a href="https://lilyzhouZYJ.github.io/sorting-visualizer"><img src="/assets/icons/external-link.png" alt="Sorting visualizer" style="width:25px; height:25px; vertical-align:top">&ensp;See the Source Code Here</a>
+<a href="https://lilyzhouZYJ.github.io/sorting-visualizer"><img src="/assets/icons/external-link.png" alt="Sorting visualizer" style="width:25px; height:25px; vertical-align:top">&ensp;See the Sorting Visualizer Here</a>
