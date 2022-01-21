@@ -4,27 +4,52 @@ layout: default
 <h1>Experience</h1>
 <p>Here are some of my past experiences, including internships and independent projects.</p>
 
-{% for tag in site.tags %}
-    {%- if tag[0] == "projects" -%}
-        <!-- <h4>{{ tag[0] | capitalize }}</h4> -->
-        {% for post in tag[1] %}
-            <div class="col s12 m7">
-                <div class="card horizontal">
-                    <div class="card-image" style="width:30%">
-                        <img src="{{ post.image }}" style="position:relative; top:33%;">
-                    </div>
-                    <div class="card-stacked">
-                        <div class="card-content">
-                            <h5>{{ post.title }}</h5>
-                            <p class="blue-grey-text lighten-3">{{ post.time }}</p>
-                            <p>{{ post.description }}</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="{{ post.url }}">Learn More</a>
-                        </div>
-                    </div>
+
+
+<h4>Internships</h4>
+
+{% for post in site.categories.internship %}
+    <div class="col s12 m7">
+        <div class="card horizontal">
+            <div class="card-image" style="width:30%">
+                <img src="{{ post.image }}" style="position:relative; top:33%;">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>{{ post.title }}</h5>
+                    <p class="blue-grey-text lighten-3">{{ post.time }}</p>
+                    <p>{{ post.description }}</p>
+                </div>
+                <div class="card-action">
+                    <a href="{{ post.url }}">Learn More</a>
                 </div>
             </div>
-        {% endfor %}
-    {%- endif -%}
+        </div>
+    </div>
 {% endfor %}
+
+
+
+<h4>Projects</h4>
+
+{% for post in site.categories.project %}
+    <div class="col s12 m7">
+        <div class="card horizontal">
+            <div class="card-image" style="width:30%">
+                <img src="{{ post.image }}" style="position:relative; top:33%;">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>{{ post.title }}</h5>
+                    <p class="blue-grey-text lighten-3">{{ post.time }}</p>
+                    <p>{{ post.description }}</p>
+                </div>
+                <div class="card-action">
+                    <a href="{{ post.url }}">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+

@@ -4,8 +4,8 @@ title:  "Sorting Visualizer: Independent Project"
 description: "A visualizer for sorting algorithms."
 image: "/assets/img/sorting-visualizer/logo.png"
 time: "January 2022"
-categories: projects
-tag: projects
+categories: project
+tag: project
 ---
 
 <a href="https://github.com/lilyzhouZYJ/sorting-visualizer"><img src="/assets/icons/github-icon.png" alt="GitHub" style="width:25px; height:25px; vertical-align:top">&ensp;See the Source Code Here</a>

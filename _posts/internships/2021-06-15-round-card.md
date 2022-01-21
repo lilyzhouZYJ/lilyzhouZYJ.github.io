@@ -4,8 +4,8 @@ title:  "Summer Internship at Rocky Core: IC Cards and Security"
 description: "Building applications for integrated-circuit cards, and implementing security mechanisms using cryptographic algorithms such as AES and RSA."
 image: "/assets/img/rockycore/rockycore-logo.jfif"
 time: "June - July 2021"
-categories: projects
-tag: projects
+categories: internship
+tag: internship
 ---
 
 Over the summer of 2021, I had the honor of joining Rocky Core as an intern, where I had the chance to explore a new industry that I never knew much about before. I was able to gain a better understanding of internet security and of cryptography, as well as their implementation on microchips and smart cards. I also learned about some of the key services that Rocky Core provides. In this post I will document my experience there.

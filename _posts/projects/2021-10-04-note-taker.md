@@ -4,8 +4,8 @@ title:  "Note-Taker: Independent Project"
 description: "A minimalistic website for creating, editing, and storing notes. Built with various web-development tools including Node.js, Express, EJS template engine, MongoDB and Mongoose, and Passport for user authentication."
 image: "/assets/img/note-taker/logo.png"
 time: "August - September 2021"
-categories: projects
-tag: projects
+categories: project
+tag: project
 ---
 
 Since my work with MitoVisualize largely focused on the frontend, I wanted to get more practice on the server-side logic and build a more solid understanding of the backend. I decided to start with something simple, building a small website for creating, editing, and storing notes. This was a server-side/Node.js practice project, so I focused on building the backend mechanisms and tried to keep the frontend as simple as possible.

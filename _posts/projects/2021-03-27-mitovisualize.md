@@ -4,8 +4,8 @@ title:  "MitoVisualize"
 description: "A web interface that aggregates and displays data on mitochondrial DNA, and allows for searches and interactive visualizations. Built with React, Node.js, Express, and ElasticSearch."
 image: "/assets/img/mitovisualize/mitovisualize-logo.jpg"
 time: "March 2020 - March 2021"
-categories: projects
-tag: projects
+categories: project
+tag: project
 ---
 
 Designed and built by the Lek Lab at Yale, <a href="https://mitovisualize.org/">MitoVisualize</a> is a web tool that aggregates information on mitochondrial DNA from a range of genetic databases and generates visualizations for genes and variants of interest. It provides a useful tool for the interpretation of mtDNA variants and for exploring mtDNA variation in general. 
