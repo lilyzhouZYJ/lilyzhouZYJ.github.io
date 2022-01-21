@@ -27,9 +27,9 @@ I worked on the development of this tool from March 2020 to June 2021, as an ext
 
 <img src="/assets/img/mitovisualize/mito-visualize-structure.png" alt="MitoVisualize Structure" style="width:500px; display:block; margin-left:auto; margin-right:auto;"/>
 
-* **React**: React is a front-end JavaScript library for building interactive user interfaces.
-* **Express**: We used the Express module in Node.js to build the backend server.
-* **GraphQL**: We used GraphQL as the data query language for our API.
+* **React**: We used React to build the interactive interface.
+* **Express**: We used the Express module to build the backend server.
+* **GraphQL**: We used GraphQL to build the data query API into the database.
 * **ElasticSearch**: We used ElasticSearch to build our database.
 
 ### Display
