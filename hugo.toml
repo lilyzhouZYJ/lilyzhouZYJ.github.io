@@ -1,0 +1,89 @@
+baseURL = 'https://lilyzhouZYJ.github.io/'
+languageCode = 'en-us'
+title = 'Lily (Yijing) Zhou'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "lily zhou's personal page"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'base16-eighties'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'hi there, this is lily!'
+homeIntroContent = """
+I'm a software engineer at **Azure Storage** at Microsoft, working on its *core distributed metadata component* that manages all data-stream metadata in Storage.
+
+Before that, I graduated *magna cum laude* from **Yale University**, where I double-majored in **Computer Science** and **History** and earned a Distinction in the Major of Computer Science.
+
+Read more about me [here](/about).
+"""
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 20
+listSummaries = false
+listDateFormat = 'Jan 2 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = false
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/lily-zhou-b12142146/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/lilyzhouZYJ"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+[[params.menu]]
+name = "books"
+url = "/books"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
