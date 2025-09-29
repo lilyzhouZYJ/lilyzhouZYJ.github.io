@@ -18,11 +18,25 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'hi there, this is lily!'
 homeIntroContent = """
-I'm a software engineer at **Azure Storage** at Microsoft, working on its *core distributed metadata component* that manages all data-stream metadata in Storage.
+I'm a **software engineer** at **Azure Storage** at Microsoft, working on its **core distributed metadata component** that manages all data-stream metadata in Storage.
 
-Before that, I graduated *magna cum laude* from **Yale University**, where I double-majored in **Computer Science** and **History** and earned a Distinction in the Major of Computer Science.
+I graduated *magna cum laude* from **Yale University**, where I double-majored in **Computer Science** and **History** and earned a *Distinction in the Major* of Computer Science.
 
-Read more about me [here](/about).
+I'm interested in:
+- distributed systems
+- backend infrastructure  
+- complex problems
+- root-causing concurrency bugs (but yes they drive me crazy too)
+- 20th-century East European history
+- or anything that makes me think and think again
+
+When I'm not working, you'll find me:
+- climbing
+- hiking
+- running
+- practicing for an upcoming kpop dance cover
+- making pottery
+- or on days of poor logistical planning, all of the above
 """
 
 # Collection to display on home
@@ -54,9 +68,9 @@ url = "https://github.com/lilyzhouZYJ"
 name = "home"
 url = "/"
 
-[[params.menu]]
-name = "about"
-url = "/about"
+# [[params.menu]]
+# name = "about"
+# url = "/about"
 
 [[params.menu]]
 name = "projects"
