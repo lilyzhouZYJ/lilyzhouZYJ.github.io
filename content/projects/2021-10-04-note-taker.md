@@ -1,7 +1,7 @@
 ---
 title:  "Note-Taker"
 summary: "A minimalistic website for creating, editing, and storing notes. Built with various web-development tools including Node.js, Express, EJS template engine, MongoDB and Mongoose, and Passport for user authentication."
-tags: ["project"]
+tags: ["fullstack"]
 showTags: true
 date: 2021-10-04
 ---

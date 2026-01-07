@@ -1,7 +1,7 @@
 ---
 title: "MitoVisualize"
 summary: "A web interface that aggregates and displays data on mitochondrial DNA, and allows for searches and interactive visualizations. Built with React, Node.js, Express, and ElasticSearch."
-tags: ["project"]
+tags: ["fullstack", "intern"]
 showTags: true
 date: 2021-03-27
 ---

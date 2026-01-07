@@ -18,25 +18,24 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'hi there, this is lily!'
 homeIntroContent = """
-I'm a **software engineer** at **Azure Storage** at Microsoft, working on its **core distributed metadata component** that manages all data-stream metadata in Storage.
+I'm currently a **software engineer** at **Azure Storage** at Microsoft, where I work on its **distributed metadata service** that manages all data-stream metadata in Storage.
 
-I graduated *magna cum laude* from **Yale University**, where I double-majored in **Computer Science** and **History** and earned a *Distinction in the Major* of Computer Science.
+Before that, I graduated *magna cum laude* from **Yale University**, where I double-majored in **Computer Science** and **History** and earned a *Distinction in the Major* of Computer Science.
 
-I'm interested in:
+Some things I'm interested in:
 - distributed systems
-- backend infrastructure  
-- complex problems
+- backend infrastructure
 - root-causing concurrency bugs (but yes they drive me crazy too)
 - 20th-century East European history
-- or anything that makes me think and think again
+- Jane Austen / literature of the Romantic period
 
 When I'm not working, you'll find me:
 - climbing
 - hiking
-- running
+- running (actually I stopped for the sake of my knees)
+- snowboarding
 - practicing for an upcoming kpop dance cover
 - making pottery
-- or on days of poor logistical planning, all of the above
 """
 
 # Collection to display on home

@@ -1,7 +1,7 @@
 ---
 title:  "Sorting Visualizer"
 summary: "A visualizer for sorting algorithms."
-tags: ["project"]
+tags: ["fullstack"]
 showTags: true
 date: 2022-01-13
 ---
